@@ -109,7 +109,9 @@ public class PartsDB {
         raf.writeChars(sb.toString());
 
         // Write quantity and unit cost
+
         raf.writeInt(qty);
+
         raf.writeInt(ucost);
     }
 
